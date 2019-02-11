@@ -7,7 +7,8 @@ License Headers in Project Properties.
 
 /**
  *
- * @author fuent
+ * @author Marco Fuentes
+ * 
  */
 public abstract class AbstractPila <E> implements Stack <E> {
     public AbstractPila(){}

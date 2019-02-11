@@ -2,7 +2,7 @@
  * La interfaz Stack define el contrato que han de seguir las clases que lo implementen
  * 
  * @author fuent
- * 
+ * @param <E>
  * 
  */
 public interface Stack <E>{
