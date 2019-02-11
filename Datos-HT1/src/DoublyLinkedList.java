@@ -7,9 +7,12 @@ public class DoublyLinkedList <E> extends AbstractList <E>
     protected int count; 
     protected DoublyLinkedNode<E> head; 
     protected DoublyLinkedNode<E> tail;
+    
     public DoublyLinkedList() // post: constructs an empty list 
     { 
-        head = null; tail = null; count = 0; 
+        head = null; 
+        tail = null; 
+        count = 0; 
     }
     
     public void addFirst(E value)
