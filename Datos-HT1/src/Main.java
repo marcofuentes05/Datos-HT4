@@ -13,7 +13,7 @@ public class Main {
     public static void main (String args []){
         
         System.out.println("Bienvenido!\n¿Que implementacion deseas para Stack?");
-        System.out.println("1. ArrayList\n2. Vector\n3. Lista");
+        System.out.println("1. ArrayList\n2. Vector\n3. Lista Simplemente Encadenada \n4. Lista Doblemente Encadenada \n5. Lista Circular");
         Scanner sc  = new Scanner(System.in);
         
         String respuesta = sc.nextLine();
