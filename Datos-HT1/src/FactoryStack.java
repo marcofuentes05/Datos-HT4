@@ -1,26 +1,22 @@
 
-import java.util.ArrayList;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author fuent
+ * @author Marco Fuentes
  */
+
 public class FactoryStack {
-    public FactoryStack(){}
-    
+    public FactoryStack(){}    
     public Stack factoryStack(String tipo){
         if (tipo.equals("1")){
-            //TODO: arreglar tipo de dato-interfaz arrayList-Stack(List)?
-            //return new ArrayList();
-            return null;
+            return new PilaArrayList();
         }else if(tipo.equals("2")){
-            return new Pila();
+            return new PilaVector();
+        }else if (tipo.equals("3")){
+            return new PilaLista(1);
+        }else if (tipo.equals("4")){
+            return new PilaLista(2);
+        }else if (tipo.equals("5")){
+            return new PilaLista(3);
         }else{
             return null;
         }
